@@ -2,10 +2,16 @@ try:
     prompt = "What is the speed?"
     speed=input(prompt)
     speed = int(speed)
-    if speed <120:
+    if speed <40:
+        print("hurry up")
+ #only one option can be valid. if I put as an if, I can make them all work (elif is related to the first if)
+    elif speed<80:
+        print ("move to the slow lane")
+    elif speed <120:
         print("You can go", 120-speed, "faster than your speed")
     else:
         print("slow down")
 except:
     print("Please put a number for speed")
+
 
