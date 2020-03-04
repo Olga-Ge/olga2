@@ -1,7 +1,11 @@
+try:
+    prompt = "What is the speed?"
+    speed=input(prompt)
+    speed = int(speed)
+    if speed <120:
+        print("You can go", 120-speed, "faster than your speed")
+    else:
+        print("slow down")
+except:
+    print("Please put a number for speed")
 
-
-
-prompt = "What is the speed?"
-speed=input(prompt)
-speed = int(speed)
-print("You can go", 120-speed, "faster than your speed")
