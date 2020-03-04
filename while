@@ -20,3 +20,8 @@ while name!="nomore":
     name = input ("give another name")
 
 print("you gave no name so I stopped")
+
+while True: #means always
+    if name =="nomore":
+        break
+    print(2*name)
