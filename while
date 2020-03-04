@@ -1,0 +1,22 @@
+money=1000
+price=input("price of purchase")
+price=int(price)
+while money>0:
+    money=money-price
+    print(money)
+
+
+# i want to print the 1st 10 numbers
+
+n = 10
+while n >0:
+    print(n)
+    n = n - 1
+print(n)
+
+name = input("give name")
+while name!="nomore":
+    print (2*name)
+    name = input ("give another name")
+
+print("you gave no name so I stopped")
